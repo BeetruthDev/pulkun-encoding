@@ -152,6 +152,7 @@ function encode(){
   }
 
   // Display the encoded output in the result area
+  navigator.clipboard.writeText(pulkunEncoded)
   document.getElementById('result').innerText = pulkunEncoded;
 }
 
